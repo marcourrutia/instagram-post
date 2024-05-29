@@ -22,7 +22,7 @@ body {
     align-items: center;
     margin-top: 20px;
     width: 30%;
-    min-width: 391px;
+    min-width: 201px;
     height: fit-content;
     background: black;
     overflow: hidden;
@@ -58,6 +58,9 @@ body {
 }
 
 .nombre-usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 15px;
     padding-top: 4px;
     font-size: 12px;
@@ -90,10 +93,15 @@ body {
 i {
     font-size: 20px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .post-body p {
     margin: 10px 5px;
     font-size: 13px;
     font-weight: 100;
+}
+
+.click {
+    cursor: pointer;
 }
